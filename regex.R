@@ -62,3 +62,5 @@ converted <- s %>%
 pattern <- "^[4-7]\\s*'\\s*\\d{1,2}$"
 str_detect(converted, pattern)
 
+str_trim("5 ' 9 ")
+
